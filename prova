@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>lavoro info</title>
+</head>  
+    
+<a href="/forms.html">   
+<h1><marquee><font color="blue"> Formulario</font></marquee></h1>
+<div style="color:green" align="center">
+<form action="action_page.php">
+  Nome:<br>
+  <input name="firstname" type="text">
+  <br>
+  Cognome:<br>
+  <input name="lastname" type="text">
+   <br>
+   Eta:<br>
+  <input name="age" type="text">
+  <br>
+  Regione:<br>
+  <input name="Regione" type="text">
+  <br>
+  Provincia:<br>
+  <input name="province" type="text">
+ <br>
+ Comune:<br>
+ <input name="comune" type="text">
+ <br>
+  Luogo di Nascita:<br>
+ <input name="Luogo di Nascita" type="text">
+ <br>
+ Nazione:<br>
+ <input name="Nazione" type="text">
+ <br><br><br>
+  <input name="gender" value="Maschio" checked="" type="radio"> Maschio<br>
+ <br>
+ <input name="gender" value="femina" checked="" type="radio"> Femina<br>
+ <br>
+ <br>
+ <br><br>
+  <button style="background-color:red" type="button" onclick="alert('Ciao a Tutti!')">Invio </button> 
+</form> 
+</div>
+</html>
